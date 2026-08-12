@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/lending-tracker/static/css/main.943a582b.css",
-    "main.js": "/lending-tracker/static/js/main.49aa087d.js",
+    "main.js": "/lending-tracker/static/js/main.b210117e.js",
     "index.html": "/lending-tracker/index.html",
     "main.943a582b.css.map": "/lending-tracker/static/css/main.943a582b.css.map",
-    "main.49aa087d.js.map": "/lending-tracker/static/js/main.49aa087d.js.map"
+    "main.b210117e.js.map": "/lending-tracker/static/js/main.b210117e.js.map"
   },
   "entrypoints": [
     "static/css/main.943a582b.css",
-    "static/js/main.49aa087d.js"
+    "static/js/main.b210117e.js"
   ]
 }
