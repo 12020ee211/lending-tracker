@@ -27,7 +27,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          CI: fals
+          CI: false
           PUBLIC_URL: /lending-tracker
           REACT_APP_GITHUB_TOKEN: ${{ secrets.LEDGER_DATA_TOKEN }}
           REACT_APP_DATA_REPO_OWNER: 12020ee211
