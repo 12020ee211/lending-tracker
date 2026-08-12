@@ -1,1 +1,24 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#4f46e5" />
+    <meta name="description" content="Ledger Tracker — track money you've lent and borrowed" />
+    <title>Ledger Tracker</title>
+    <!-- SPA redirect for GitHub Pages -->
+    <script>
+      (function() {
+        var l = window.location;
+        if (l.search.slice(1,2) === '/') {
+          var decoded = l.search.slice(1).split('&').shift().replace(/~and~/g, '&');
+          window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + (l.search.slice(1).split('&').slice(1).length ? ('?' + l.search.slice(1).split('&').slice(1).join('&')) : '') + l.hash);
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run Ledger Tracker.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
