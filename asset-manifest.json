@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ledger-tracker/static/css/main.943a582b.css",
+    "main.js": "/ledger-tracker/static/js/main.b2a066cb.js",
+    "index.html": "/ledger-tracker/index.html",
+    "main.943a582b.css.map": "/ledger-tracker/static/css/main.943a582b.css.map",
+    "main.b2a066cb.js.map": "/ledger-tracker/static/js/main.b2a066cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.943a582b.css",
+    "static/js/main.b2a066cb.js"
+  ]
+}
